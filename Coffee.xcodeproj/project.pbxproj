@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04531E0F19A2A7B50057194B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 04531E0D19A2A7B50057194B /* back.png */; };
+		04531E1019A2A7B50057194B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04531E0E19A2A7B50057194B /* back@2x.png */; };
+		04AABC4A19ACC8CE000BB852 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AABC4919ACC8CE000BB852 /* Sample.json */; };
+		04BF5D5019ABBDB600F91A11 /* imageView_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D4E19ABBDB600F91A11 /* imageView_Placeholder.png */; };
+		04BF5D5119ABBDB600F91A11 /* coffee app storyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D4F19ABBDB600F91A11 /* coffee app storyboard.png */; };
+		04BF5D5319ABCA8600F91A11 /* imageView_Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5219ABCA8600F91A11 /* imageView_Placeholder@2x.png */; };
+		04BF5D5619AC0D8600F91A11 /* appIcon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5519AC0D8600F91A11 /* appIcon-1024.png */; };
+		04BF5D5D19AC0E1900F91A11 /* appIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5719AC0E1900F91A11 /* appIcon-29.png */; };
+		04BF5D5E19AC0E1900F91A11 /* appIcon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5819AC0E1900F91A11 /* appIcon-40.png */; };
+		04BF5D5F19AC0E1900F91A11 /* appIcon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5919AC0E1900F91A11 /* appIcon-57.png */; };
+		04BF5D6019AC0E1900F91A11 /* appIcon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5A19AC0E1900F91A11 /* appIcon-60.png */; };
+		04BF5D6119AC0E1900F91A11 /* appIcon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5B19AC0E1900F91A11 /* appIcon-80.png */; };
+		04BF5D6219AC0E1900F91A11 /* appIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D5C19AC0E1900F91A11 /* appIcon-120.png */; };
+		04BF5D6519AC0EF300F91A11 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D6319AC0EF300F91A11 /* splash.png */; };
+		04BF5D6619AC0EF300F91A11 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D6419AC0EF300F91A11 /* splash@2x.png */; };
+		04BF5D6919AC101500F91A11 /* splash-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D6719AC101500F91A11 /* splash-568h.png */; };
+		04BF5D6A19AC101500F91A11 /* splash-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF5D6819AC101500F91A11 /* splash-568h@2x.png */; };
+		04BF5D6D19AC44A200F91A11 /* CoffeeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF5D6C19AC44A200F91A11 /* CoffeeModel.m */; };
+		04E488F3199D0A9A00DA601A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E488F2199D0A9A00DA601A /* Foundation.framework */; };
+		04E488F5199D0A9A00DA601A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E488F4199D0A9A00DA601A /* CoreGraphics.framework */; };
+		04E488F7199D0A9A00DA601A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E488F6199D0A9A00DA601A /* UIKit.framework */; };
+		04E488FD199D0A9B00DA601A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E488FB199D0A9B00DA601A /* InfoPlist.strings */; };
+		04E488FF199D0A9C00DA601A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E488FE199D0A9C00DA601A /* main.m */; };
+		04E48903199D0A9C00DA601A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E48902199D0A9C00DA601A /* AppDelegate.m */; };
+		04E48905199D0A9D00DA601A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E48904199D0A9D00DA601A /* Images.xcassets */; };
+		04E4890C199D0A9D00DA601A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4890B199D0A9D00DA601A /* XCTest.framework */; };
+		04E4890D199D0A9D00DA601A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E488F2199D0A9A00DA601A /* Foundation.framework */; };
+		04E4890E199D0A9D00DA601A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E488F6199D0A9A00DA601A /* UIKit.framework */; };
+		04E48916199D0A9D00DA601A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E48914199D0A9D00DA601A /* InfoPlist.strings */; };
+		04E48918199D0A9D00DA601A /* CoffeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E48917199D0A9D00DA601A /* CoffeeTests.m */; };
+		04E48925199D0B3C00DA601A /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E48924199D0B3C00DA601A /* SplashViewController.m */; };
+		04E48949199D115C00DA601A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E48948199D115C00DA601A /* SystemConfiguration.framework */; };
+		04E4894B199D116200DA601A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4894A199D116200DA601A /* MobileCoreServices.framework */; };
+		04E4894E199D11CB00DA601A /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4894D199D11CB00DA601A /* WebServiceManager.m */; };
+		04E48955199D270900DA601A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E48953199D270900DA601A /* logo.png */; };
+		04E48956199D270900DA601A /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E48954199D270900DA601A /* logo@2x.png */; };
+		04E48959199D2C9200DA601A /* AllCoffeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E48958199D2C9200DA601A /* AllCoffeeViewController.m */; };
+		04E4895C199D318300DA601A /* CoffeeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4895B199D318300DA601A /* CoffeeTableCell.m */; };
+		04E4895F199D3D7500DA601A /* CoffeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4895E199D3D7500DA601A /* CoffeDetailViewController.m */; };
+		2876A838FC5E45049CB6B4D6 /* libPods-Coffee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6F74D9A8D545AA84809D79 /* libPods-Coffee.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E4890F199D0A9D00DA601A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E488E7199D0A9900DA601A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E488EE199D0A9A00DA601A;
+			remoteInfo = Coffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04531E0D19A2A7B50057194B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		04531E0E19A2A7B50057194B /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		04AABC4919ACC8CE000BB852 /* Sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		04BF5D4E19ABBDB600F91A11 /* imageView_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageView_Placeholder.png; sourceTree = "<group>"; };
+		04BF5D4F19ABBDB600F91A11 /* coffee app storyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee app storyboard.png"; sourceTree = "<group>"; };
+		04BF5D5219ABCA8600F91A11 /* imageView_Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageView_Placeholder@2x.png"; sourceTree = "<group>"; };
+		04BF5D5519AC0D8600F91A11 /* appIcon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-1024.png"; sourceTree = "<group>"; };
+		04BF5D5719AC0E1900F91A11 /* appIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-29.png"; sourceTree = "<group>"; };
+		04BF5D5819AC0E1900F91A11 /* appIcon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-40.png"; sourceTree = "<group>"; };
+		04BF5D5919AC0E1900F91A11 /* appIcon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-57.png"; sourceTree = "<group>"; };
+		04BF5D5A19AC0E1900F91A11 /* appIcon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-60.png"; sourceTree = "<group>"; };
+		04BF5D5B19AC0E1900F91A11 /* appIcon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-80.png"; sourceTree = "<group>"; };
+		04BF5D5C19AC0E1900F91A11 /* appIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon-120.png"; sourceTree = "<group>"; };
+		04BF5D6319AC0EF300F91A11 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		04BF5D6419AC0EF300F91A11 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		04BF5D6719AC101500F91A11 /* splash-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-568h.png"; sourceTree = "<group>"; };
+		04BF5D6819AC101500F91A11 /* splash-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-568h@2x.png"; sourceTree = "<group>"; };
+		04BF5D6B19AC44A200F91A11 /* CoffeeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeModel.h; sourceTree = "<group>"; };
+		04BF5D6C19AC44A200F91A11 /* CoffeeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeModel.m; sourceTree = "<group>"; };
+		04E488EF199D0A9A00DA601A /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E488F2199D0A9A00DA601A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04E488F4199D0A9A00DA601A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04E488F6199D0A9A00DA601A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04E488FA199D0A9B00DA601A /* Coffee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coffee-Info.plist"; sourceTree = "<group>"; };
+		04E488FC199D0A9B00DA601A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E488FE199D0A9C00DA601A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E48900199D0A9C00DA601A /* Coffee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coffee-Prefix.pch"; sourceTree = "<group>"; };
+		04E48901199D0A9C00DA601A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E48902199D0A9C00DA601A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E48904199D0A9D00DA601A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04E4890A199D0A9D00DA601A /* CoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E4890B199D0A9D00DA601A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04E48913199D0A9D00DA601A /* CoffeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeTests-Info.plist"; sourceTree = "<group>"; };
+		04E48915199D0A9D00DA601A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E48917199D0A9D00DA601A /* CoffeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeTests.m; sourceTree = "<group>"; };
+		04E48923199D0B3C00DA601A /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		04E48924199D0B3C00DA601A /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		04E48948199D115C00DA601A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04E4894A199D116200DA601A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04E4894C199D11CB00DA601A /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		04E4894D199D11CB00DA601A /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		04E48953199D270900DA601A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		04E48954199D270900DA601A /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		04E48957199D2C9200DA601A /* AllCoffeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCoffeeViewController.h; sourceTree = "<group>"; };
+		04E48958199D2C9200DA601A /* AllCoffeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllCoffeeViewController.m; sourceTree = "<group>"; };
+		04E4895A199D318300DA601A /* CoffeeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeTableCell.h; sourceTree = "<group>"; };
+		04E4895B199D318300DA601A /* CoffeeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeTableCell.m; sourceTree = "<group>"; };
+		04E4895D199D3D7500DA601A /* CoffeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeDetailViewController.h; sourceTree = "<group>"; };
+		04E4895E199D3D7500DA601A /* CoffeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeDetailViewController.m; sourceTree = "<group>"; };
+		6E6F74D9A8D545AA84809D79 /* libPods-Coffee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Coffee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53ADF927B4F4DC18B20022F /* Pods-Coffee.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.xcconfig"; path = "Pods/Pods-Coffee.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E488EC199D0A9A00DA601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4894B199D116200DA601A /* MobileCoreServices.framework in Frameworks */,
+				04E48949199D115C00DA601A /* SystemConfiguration.framework in Frameworks */,
+				04E488F5199D0A9A00DA601A /* CoreGraphics.framework in Frameworks */,
+				04E488F7199D0A9A00DA601A /* UIKit.framework in Frameworks */,
+				04E488F3199D0A9A00DA601A /* Foundation.framework in Frameworks */,
+				2876A838FC5E45049CB6B4D6 /* libPods-Coffee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48907199D0A9D00DA601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4890C199D0A9D00DA601A /* XCTest.framework in Frameworks */,
+				04E4890E199D0A9D00DA601A /* UIKit.framework in Frameworks */,
+				04E4890D199D0A9D00DA601A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF5D5419AC0D8600F91A11 /* appIcon */ = {
+			isa = PBXGroup;
+			children = (
+				04BF5D5719AC0E1900F91A11 /* appIcon-29.png */,
+				04BF5D5819AC0E1900F91A11 /* appIcon-40.png */,
+				04BF5D5919AC0E1900F91A11 /* appIcon-57.png */,
+				04BF5D5A19AC0E1900F91A11 /* appIcon-60.png */,
+				04BF5D5B19AC0E1900F91A11 /* appIcon-80.png */,
+				04BF5D5C19AC0E1900F91A11 /* appIcon-120.png */,
+				04BF5D5519AC0D8600F91A11 /* appIcon-1024.png */,
+			);
+			path = appIcon;
+			sourceTree = "<group>";
+		};
+		04E488E6199D0A9900DA601A = {
+			isa = PBXGroup;
+			children = (
+				04E488F8199D0A9B00DA601A /* Coffee */,
+				04E48911199D0A9D00DA601A /* CoffeeTests */,
+				04E488F1199D0A9A00DA601A /* Frameworks */,
+				04E488F0199D0A9A00DA601A /* Products */,
+				F53ADF927B4F4DC18B20022F /* Pods-Coffee.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		04E488F0199D0A9A00DA601A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E488EF199D0A9A00DA601A /* Coffee.app */,
+				04E4890A199D0A9D00DA601A /* CoffeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E488F1199D0A9A00DA601A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E4894A199D116200DA601A /* MobileCoreServices.framework */,
+				04E48948199D115C00DA601A /* SystemConfiguration.framework */,
+				04E488F2199D0A9A00DA601A /* Foundation.framework */,
+				04E488F4199D0A9A00DA601A /* CoreGraphics.framework */,
+				04E488F6199D0A9A00DA601A /* UIKit.framework */,
+				04E4890B199D0A9D00DA601A /* XCTest.framework */,
+				6E6F74D9A8D545AA84809D79 /* libPods-Coffee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04E488F8199D0A9B00DA601A /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				04E48901199D0A9C00DA601A /* AppDelegate.h */,
+				04E48902199D0A9C00DA601A /* AppDelegate.m */,
+				04E48904199D0A9D00DA601A /* Images.xcassets */,
+				04E48922199D0B2700DA601A /* ViewControllers */,
+				04E4892A199D112B00DA601A /* Utils */,
+				04E48921199D0B2700DA601A /* Resource */,
+				04E488F9199D0A9B00DA601A /* Supporting Files */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		04E488F9199D0A9B00DA601A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E488FA199D0A9B00DA601A /* Coffee-Info.plist */,
+				04E488FB199D0A9B00DA601A /* InfoPlist.strings */,
+				04E488FE199D0A9C00DA601A /* main.m */,
+				04E48900199D0A9C00DA601A /* Coffee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E48911199D0A9D00DA601A /* CoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E48917199D0A9D00DA601A /* CoffeeTests.m */,
+				04E48912199D0A9D00DA601A /* Supporting Files */,
+			);
+			path = CoffeeTests;
+			sourceTree = "<group>";
+		};
+		04E48912199D0A9D00DA601A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E48913199D0A9D00DA601A /* CoffeeTests-Info.plist */,
+				04E48914199D0A9D00DA601A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E48921199D0B2700DA601A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04BF5D5219ABCA8600F91A11 /* imageView_Placeholder@2x.png */,
+				04BF5D4E19ABBDB600F91A11 /* imageView_Placeholder.png */,
+				04BF5D4F19ABBDB600F91A11 /* coffee app storyboard.png */,
+				04531E0D19A2A7B50057194B /* back.png */,
+				04531E0E19A2A7B50057194B /* back@2x.png */,
+				04E48953199D270900DA601A /* logo.png */,
+				04E48954199D270900DA601A /* logo@2x.png */,
+				04BF5D6319AC0EF300F91A11 /* splash.png */,
+				04BF5D6419AC0EF300F91A11 /* splash@2x.png */,
+				04BF5D6719AC101500F91A11 /* splash-568h.png */,
+				04BF5D6819AC101500F91A11 /* splash-568h@2x.png */,
+				04BF5D5419AC0D8600F91A11 /* appIcon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04E48922199D0B2700DA601A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E48923199D0B3C00DA601A /* SplashViewController.h */,
+				04E48924199D0B3C00DA601A /* SplashViewController.m */,
+				04E48957199D2C9200DA601A /* AllCoffeeViewController.h */,
+				04E48958199D2C9200DA601A /* AllCoffeeViewController.m */,
+				04E4895A199D318300DA601A /* CoffeeTableCell.h */,
+				04E4895B199D318300DA601A /* CoffeeTableCell.m */,
+				04E4895D199D3D7500DA601A /* CoffeDetailViewController.h */,
+				04E4895E199D3D7500DA601A /* CoffeDetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04E4892A199D112B00DA601A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04E4894C199D11CB00DA601A /* WebServiceManager.h */,
+				04E4894D199D11CB00DA601A /* WebServiceManager.m */,
+				04BF5D6B19AC44A200F91A11 /* CoffeeModel.h */,
+				04BF5D6C19AC44A200F91A11 /* CoffeeModel.m */,
+				04AABC4919ACC8CE000BB852 /* Sample.json */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E488EE199D0A9A00DA601A /* Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E4891B199D0A9D00DA601A /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildPhases = (
+				0B53FFF020CD4F6A8556634E /* Check Pods Manifest.lock */,
+				04E488EB199D0A9A00DA601A /* Sources */,
+				04E488EC199D0A9A00DA601A /* Frameworks */,
+				04E488ED199D0A9A00DA601A /* Resources */,
+				6B243366873E4FDB8B79C15A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coffee;
+			productName = Coffee;
+			productReference = 04E488EF199D0A9A00DA601A /* Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E48909199D0A9D00DA601A /* CoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E4891E199D0A9D00DA601A /* Build configuration list for PBXNativeTarget "CoffeeTests" */;
+			buildPhases = (
+				04E48906199D0A9D00DA601A /* Sources */,
+				04E48907199D0A9D00DA601A /* Frameworks */,
+				04E48908199D0A9D00DA601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E48910199D0A9D00DA601A /* PBXTargetDependency */,
+			);
+			name = CoffeeTests;
+			productName = CoffeeTests;
+			productReference = 04E4890A199D0A9D00DA601A /* CoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E488E7199D0A9900DA601A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gautham;
+				TargetAttributes = {
+					04E48909199D0A9D00DA601A = {
+						TestTargetID = 04E488EE199D0A9A00DA601A;
+					};
+				};
+			};
+			buildConfigurationList = 04E488EA199D0A9900DA601A /* Build configuration list for PBXProject "Coffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04E488E6199D0A9900DA601A;
+			productRefGroup = 04E488F0199D0A9A00DA601A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E488EE199D0A9A00DA601A /* Coffee */,
+				04E48909199D0A9D00DA601A /* CoffeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E488ED199D0A9A00DA601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF5D6219AC0E1900F91A11 /* appIcon-120.png in Resources */,
+				04BF5D5119ABBDB600F91A11 /* coffee app storyboard.png in Resources */,
+				04BF5D5619AC0D8600F91A11 /* appIcon-1024.png in Resources */,
+				04531E1019A2A7B50057194B /* back@2x.png in Resources */,
+				04BF5D6619AC0EF300F91A11 /* splash@2x.png in Resources */,
+				04BF5D5319ABCA8600F91A11 /* imageView_Placeholder@2x.png in Resources */,
+				04E48956199D270900DA601A /* logo@2x.png in Resources */,
+				04BF5D6919AC101500F91A11 /* splash-568h.png in Resources */,
+				04E48955199D270900DA601A /* logo.png in Resources */,
+				04BF5D5F19AC0E1900F91A11 /* appIcon-57.png in Resources */,
+				04BF5D6A19AC101500F91A11 /* splash-568h@2x.png in Resources */,
+				04BF5D5E19AC0E1900F91A11 /* appIcon-40.png in Resources */,
+				04BF5D6119AC0E1900F91A11 /* appIcon-80.png in Resources */,
+				04BF5D5D19AC0E1900F91A11 /* appIcon-29.png in Resources */,
+				04AABC4A19ACC8CE000BB852 /* Sample.json in Resources */,
+				04531E0F19A2A7B50057194B /* back.png in Resources */,
+				04BF5D5019ABBDB600F91A11 /* imageView_Placeholder.png in Resources */,
+				04E488FD199D0A9B00DA601A /* InfoPlist.strings in Resources */,
+				04BF5D6019AC0E1900F91A11 /* appIcon-60.png in Resources */,
+				04BF5D6519AC0EF300F91A11 /* splash.png in Resources */,
+				04E48905199D0A9D00DA601A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48908199D0A9D00DA601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48916199D0A9D00DA601A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B53FFF020CD4F6A8556634E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B243366873E4FDB8B79C15A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E488EB199D0A9A00DA601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4894E199D11CB00DA601A /* WebServiceManager.m in Sources */,
+				04BF5D6D19AC44A200F91A11 /* CoffeeModel.m in Sources */,
+				04E48903199D0A9C00DA601A /* AppDelegate.m in Sources */,
+				04E4895F199D3D7500DA601A /* CoffeDetailViewController.m in Sources */,
+				04E488FF199D0A9C00DA601A /* main.m in Sources */,
+				04E48959199D2C9200DA601A /* AllCoffeeViewController.m in Sources */,
+				04E4895C199D318300DA601A /* CoffeeTableCell.m in Sources */,
+				04E48925199D0B3C00DA601A /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48906199D0A9D00DA601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48918199D0A9D00DA601A /* CoffeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E48910199D0A9D00DA601A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E488EE199D0A9A00DA601A /* Coffee */;
+			targetProxy = 04E4890F199D0A9D00DA601A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E488FB199D0A9B00DA601A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E488FC199D0A9B00DA601A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04E48914199D0A9D00DA601A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E48915199D0A9D00DA601A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E48919199D0A9D00DA601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E4891A199D0A9D00DA601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E4891C199D0A9D00DA601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53ADF927B4F4DC18B20022F /* Pods-Coffee.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "Coffee/Coffee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04E4891D199D0A9D00DA601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53ADF927B4F4DC18B20022F /* Pods-Coffee.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "Coffee/Coffee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04E4891F199D0A9D00DA601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoffeeTests/CoffeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04E48920199D0A9D00DA601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTests/CoffeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E488EA199D0A9900DA601A /* Build configuration list for PBXProject "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E48919199D0A9D00DA601A /* Debug */,
+				04E4891A199D0A9D00DA601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E4891B199D0A9D00DA601A /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4891C199D0A9D00DA601A /* Debug */,
+				04E4891D199D0A9D00DA601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E4891E199D0A9D00DA601A /* Build configuration list for PBXNativeTarget "CoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4891F199D0A9D00DA601A /* Debug */,
+				04E48920199D0A9D00DA601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E488E7199D0A9900DA601A /* Project object */;
+}

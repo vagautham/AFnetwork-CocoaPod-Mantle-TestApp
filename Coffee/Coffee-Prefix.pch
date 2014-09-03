@@ -1,0 +1,38 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <Reachability/Reachability.h>
+    #import <AFNetworking/AFNetworking.h>
+    #import <Mantle/Mantle.h>
+
+#define NOTIFICATION_GET_ALL_COFFEE_FAILED @"NOTIFICATION_GET_ALL_COFFEE_FAILED"
+#define NOTIFICATION_GET_ALL_COFFEE_SUCCESS @"NOTIFICATION_GET_ALL_COFFEE_SUCCESS"
+
+#define NOTIFICATION_RESET_SUCCESS @"NOTIFICATION_RESET_SUCCESS"
+#define NOTIFICATION_RESET_FAILED @"NOTIFICATION_RESET_FAILED"
+
+#define NOTIFICATION_SAVE_SUCCESS @"NOTIFICATION_SAVE_SUCCESS"
+#define NOTIFICATION_SAVE_FAILED @"NOTIFICATION_SAVE_FAILED"
+
+
+#define DESC @"desc"
+#define IMAGE_URL @"image_url"
+#define ID @"id"
+#define NAME @"name"
+#define COFFEE_IMAGE @"COFFEE_IMAGE"
+
+#endif
